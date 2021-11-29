@@ -39,7 +39,7 @@ namespace HomeWork13
         }
         public new void Print()
         {
-            base.Print();
+            base.Print();            
             Console.WriteLine($"В здании {NumberFloors} этажа(ей)");
         }
     }

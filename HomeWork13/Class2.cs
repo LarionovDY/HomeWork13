@@ -21,7 +21,7 @@ namespace HomeWork13
         }
         public void Print()
         {
-            Console.WriteLine($"Адрес здания: {Address}\nДлина здания : {Length}\nШирина здания: {Width}\nВысота здания: {Height}");
+            Console.WriteLine($"Адрес здания: {Address}\nДлина здания : {Length:f2}\nШирина здания: {Width:f2}\nВысота здания: {Height:f2}");
         }
     }
 }
